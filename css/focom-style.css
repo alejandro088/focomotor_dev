@@ -177,14 +177,14 @@
   margin: 0px;
 }
 
-.focom-vehicle-images {
+.focom-vehicle-min-images {
   width: 100%;
   height: 88.75px;
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-.focom-vehicle-images img {
+.focom-vehicle-min-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -193,15 +193,16 @@
 
 .focom-vehicle-image-principal {
   width: 100%;
-  height: 100%;
+  height: 50vw;
+  max-height: 400px;
+  min-height: 160px;
   overflow: hidden;
 }
 
-.focom-vehicle-images-section {
-  height: 400px;
+.focom-vehicle-min-images-section {
 }
 
-.focom-vehicle-image-principal img {
+.focom-vehicle-min-images-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -221,9 +222,14 @@
   object-position: center;
   border-radius: 50%;
 }
+.focom-button-width {
+  min-width: 140px;
+  max-width: 200px;
+}
 
+.focom-test {
 
-
+}
 
 /*      SOLO DESKTOP      */
 @media (min-width: 768px) {
@@ -239,9 +245,10 @@
     border: 1px solid #dee2e6 !important;
   }
   .focom-vehicle-info {
-    position: absolute;
-    left: 805px;
+  height: 250px;
   }
+
+
 }
 
 /*      SOLO MOBILE      */
@@ -253,5 +260,8 @@
   .focom-vehicle-info {
     position: block;
   }
+.focom-vehicle-image-principal {
+  max-height: 300px;
+}
 
 }
