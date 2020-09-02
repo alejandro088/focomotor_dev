@@ -40,6 +40,17 @@
     .focom-list-price {
       font-size: 30px;
     }
+    .focom-vehicle-price {
+      font-size: 45px;
+    }
+    .focom-vehicle-profile-image {
+      width: 100px;
+    }
+
+    .focom-vehicle-details {
+      font-size: 22px;
+    }
+
     .focom-section {
       background-color: #fafafafa;
       margin-bottom: 150px;
@@ -151,6 +162,53 @@
   margin: 0px;
 }
 
+.focom-vehicle-images {
+  width: 100%;
+  height: 88.75px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.focom-vehicle-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.focom-vehicle-image-principal {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.focom-vehicle-images-section {
+  height: 400px;
+}
+
+.focom-vehicle-image-principal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.focom-image-profile {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.focom-image-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
+
 
 /*      SOLO DESKTOP      */
 @media (min-width: 768px) {
@@ -159,7 +217,16 @@
     padding-left: 15vw;
     padding-right: 15vw;
   }
-
+  .shadow-d-md {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .border-d-md {
+    border: 1px solid #dee2e6 !important;
+  }
+  .focom-vehicle-info {
+    position: absolute;
+    left: 805px;
+  }
 }
 
 /*      SOLO MOBILE      */
@@ -167,6 +234,9 @@
 
   .focom-vehicles-list {
     margin-top: 30px;
+  }
+  .focom-vehicle-info {
+    position: block;
   }
 
 }
