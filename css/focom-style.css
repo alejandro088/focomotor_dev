@@ -25,8 +25,20 @@
       min-width: 300px;
     }
     .focom-mobile-nav {
-      height: 70px;
+      height: 50px;
     }
+
+    .focom-mobile-nav-icon {
+      font-size: 26px;
+      padding-top: 6px;
+    }
+
+    .focom-mobile-nav-text {
+      font-size: 12px;
+      margin-top: -3px;
+      font-weight: 600;
+    }
+
     .icon {
       width: 100%;
     }
@@ -74,14 +86,17 @@
     }
 
     .focom-search-height {
-      height: 30px;
+      height: 0px !important;
+      padding: 13px !important;
+      font-size: 15px;
       padding: 1rem; 
       padding-left: 35px !important; 
+      margin: -16px 0px -16px 0px;
 
     }
 
     .focom-search-icon {
-      left: 75px;
+      left: 153px;
     }
 
     .focom-mobile-nav-padding {
