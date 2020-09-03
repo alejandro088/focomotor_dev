@@ -247,6 +247,25 @@
   text-decoration: none;
 }
 
+
+.focom-image-control-width {
+  width: 50% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*      SOLO DESKTOP      */
 @media (min-width: 768px) {
 
@@ -309,4 +328,23 @@
   height: 85px;
   }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-item {
+  transition: -webkit-transform 0.3s  !important;
+  transition: transform 0.3s !important;
+  transition: transform 0.3s, -webkit-transform 0.3s !important;
 }
