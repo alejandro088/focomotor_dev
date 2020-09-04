@@ -46,17 +46,21 @@
     .focom-list a:hover {
       text-decoration: none;
     }
+
+    .focom-list img {
+      width: 100%;
+    }
     .focom-list:hover {
       opacity: 0.8;
     }
     .focom-list-price {
       font-size: 30px;
     }
+
+
+
     .focom-vehicle-price {
       font-size: 45px;
-    }
-    .focom-vehicle-profile-image {
-      width: 100px;
     }
 
     .focom-vehicle-details {
@@ -224,7 +228,6 @@
 .focom-image-profile {
   width: 75px;
   height: 75px;
-  overflow: hidden;
 }
 
 .focom-image-profile img {
@@ -234,6 +237,21 @@
   object-position: center;
   border-radius: 50%;
 }
+
+.focom-user-profile-image {
+  width: 125px;
+  height: 125px;
+}
+
+.focom-user-profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
 .focom-button-width {
   min-width: 140px;
   max-width: 200px;
@@ -252,17 +270,13 @@
   width: 50% !important;
 }
 
+.focom-nav-transition {
+  transition: .5s;
+}
 
-
-
-
-
-
-
-
-
-
-
+.position-fixed {
+  z-index: 5;
+}
 
 
 
@@ -288,6 +302,14 @@
   height: 136px;
   }
 
+  .focom-filters-mobile {
+    top: 0px !important;
+  }
+
+  .focom-search-input-mobile {
+    
+  }
+
 }
 
 /*      SOLO MOBILE      */
@@ -307,6 +329,18 @@
   width: 200px;
   height: 136px;
   }
+
+  .focom-opacity-mobile-none {
+  opacity: 0 !important;
+}
+
+.focom-filters-mobile {
+  position: fixed !important;
+  z-index: 150;
+  top: 100px;
+  width: 250px;
+  right: 5px;
+}
 
 }
 

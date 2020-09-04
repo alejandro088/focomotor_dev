@@ -1,3 +1,31 @@
+    /* Este codigo hace que el navbar mobile desaparezca al hacer
+    scroll abajo y aparezca al subir (filter se usa en la pagina de listados)*/
+    /* BEGIN */
+    var filters = document.getElementById('focom-mobile-navbar-filters');
+    let scrollUbication = window.pageYOffset;
+    window.onscroll = function (){
+      let scrollDisplacement = window.pageYOffset
+      if (scrollUbication >= scrollDisplacement) {
+        document.getElementById('focom-mobile-navbar').style.top = '0';
+        if (filters != null) {
+        	filters.style.top = '0';
+        	document.getElementById('focomFiltersCollapse').style.top = '100px';
+        } 
+      }else {
+        document.getElementById('focom-mobile-navbar').style.top = '-56.08px';
+        if (filters != null) {
+        	filters.style.top = '-56.08px';
+        	document.getElementById('focomFiltersCollapse').style.top = '43.92px';
+        } 
+      } 
+      scrollUbication = scrollDisplacement;
+    }
+    /* END */
+
+    var search = document.getElementById('focom-search');
+    console.log(search);
+
+
 
 /*
 

@@ -1,1 +1,4 @@
-02/08/2020 Reduccion del espacio del nav y el header en mobile.
+02/08/2020 	Reduccion del espacio del nav y el header en mobile.
+03/08/2020 	Añadir desplazamiento scroll del nav en mobile
+			Añadir compatibilidad de filtros en mobile
+			Listados misma altura
