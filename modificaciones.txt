@@ -1,4 +1,21 @@
-02/08/2020 	Reduccion del espacio del nav y el header en mobile.
-03/08/2020 	Añadir desplazamiento scroll del nav en mobile
-			Añadir compatibilidad de filtros en mobile
-			Listados misma altura
+02/08/2020 	• Reduccion del espacio del nav y el header en mobile.
+03/08/2020 	• Añadir desplazamiento scroll del nav en mobile
+			• Añadir compatibilidad de filtros en mobile
+			• Listados misma altura
+04/08/2020	1.13
+			• Agregar padding debajo de ingresar.html
+			• En index.html y planes dejar espacio debajo de la notificacion azul
+			• Cambio de nombre de precios.html a planes.html
+			• Agregar padding superior en usuario.html
+			• Solucionar apariencia de los iconos de mobile y agregar "planes"
+			• Header en desktop corregir margenes entre el logo y la ubicacion
+			Vehiculo.html:
+				• Agregar popup de ver numero
+				• Solucionar tamaño grande de tipografia en mobile
+				• El header mobile no funciona los scripts
+			• Agregar linea en listado.html
+
+
+			Agregar configuraciones.html
+			Header Desktop se rompe a los 768px hasta los 770px 
+
