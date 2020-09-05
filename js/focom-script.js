@@ -22,8 +22,38 @@
     }
     /* END */
 
-    var search = document.getElementById('focom-search');
-    console.log(search);
+    var iconSearch = document.getElementById('focom-nav-mobile-icon-search');
+    var inputSearch = document.getElementById('focom-nav-mobile-input-search');
+    console.log(iconSearch);
+    console.log(inputSearch);
+
+
+	iconSearch.addEventListener("click", function () {
+		inputSearch.click(); // Cuando se le hace click al boton de ejecuta el input image 
+	});
+
+	inputSearch.addEventListener("click", searchMobile);
+
+	function searchMobile() {
+		document.getElementById('focom-nav-mobile-logo-search').style.display = 'none';
+		document.getElementById('focom-nav-mobile-icon-search').style.display = 'none';
+
+		document.getElementById('focom-nav-arrowback').style.display = 'block';
+		document.getElementById('focom-nav-mobile-input-search').style.display = 'block';	
+	}
+
+	var arrowBack =	document.getElementById('focom-nav-arrowback');
+	arrowBack.addEventListener("click", backSearch);
+
+	function backSearch() {
+		document.getElementById('focom-nav-mobile-logo-search').style.display = 'block';
+		document.getElementById('focom-nav-mobile-icon-search').style.display = 'block';
+
+		document.getElementById('focom-nav-arrowback').style.display = 'none';
+		document.getElementById('focom-nav-mobile-input-search').style.display = 'none';	
+	}
+
+
 
 
 
@@ -104,8 +134,6 @@ function deleteImage () {
 	imageIconDelete.className = ' ';
 	inputButtom.className = ' ';
 }
-
-
 
 
 

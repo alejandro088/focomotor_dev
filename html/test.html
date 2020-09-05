@@ -16,45 +16,71 @@
 <body class="focom-minwidth">
 
   <!-- BEGIN HEADER DESKTOP --->
-  <header class="d-none d-md-block">
-    <div class="d-flex align-content-center align-items-center justify-content-around py-3">
-      <div>
+  <header class="d-none d-md-block my-3 mx-md-4 mx-lg-5">
+    <div class="d-flex align-items-center">
+      <div class="flex-grow-0">
           <a href="../index.html">
-          <img height="20px" class="px-3" src="../img/focom-primary.png">
+          <img height="20px" src="../img/focom-primary.png">
           </a>
+           <div class="pt-3">
+              <a href="" class="text-dark text-decoration-none"><i class="fas fa-map-marker-alt"></i> Olavarría</a>
+            </div>
       </div>
-      <div>
-          <a href="../index.html" class="font-weight-bold text-primary px-lg-2 px-md-1">Inicio</a>
-          <a href="listado.html" class="font-weight-bold text-black-50 px-lg-2 px-md-1">Listado</a>
-          <a href="publicar.html" class="font-weight-bold text-black-50 px-lg-2 px-md-1">Publicar</a>
-          <a href="precios.html" class="font-weight-bold text-black-50 px-lg-2 px-md-1">Consesionarias</a>
-          <a href="ayuda.html" class="font-weight-bold text-black-50 pl-lg-2 px-ld-1 mr-3">Ayuda</a>  
-        </div>
-        <div>
-          <a href="ingresar.html" class="font-weight-normal text-black-50 px-lg-2 px-md-1">Ingresar</a>
-          <a href="registrarse.html">
-            <div class="btn btn-primary">Registrarse</div>
-          </a>
-        </div>
+
+      <div class="flex-grow-1 mx-md-4 mx-lg-5">
+
+           <div class="input-group focom-nav-desktop-search">
+              <input type="text" class="form-control focom-nav-desktop-input" placeholder="Buscar en Focomotor">
+              <div class="input-group-append">
+                 <button class="focom-nav-desktop-searchbutton bg-primary input-group-text fas fa-search fa-lg text-white" id=""></button>
+              </div>
+           </div>
+
+           <div class="focom-nav-desktop">
+              <a href="../index.html" class="text-primary">Inicio</a>
+              <a href="listado.html" class="text-black-50">Listado</a>
+              <a href="publicar.html" class="text-black-50">Publicar</a>
+              <a href="precios.html" class="text-black-50">Consesionarias</a>
+              <a href="ayuda.html" class="text-black-50">Ayuda</a>  
+          </div>
+
+      </div>
+
+      <div class="flex-grow-0">
+        <a href="ingresar.html" class="font-weight-normal text-black-50 px-1">Ingresar</a>
+        <a href="registrarse.html">
+          <button class="btn btn-primary">Registrarse</button>
+        </a>
+      </div>
     </div>
   </header>
+
+  <div>
+  </div>
   <!-- END HEADER DESKTOP --->
 
   <!-- BEGIN HEADER MOBILE --->
     <div id="focom-mobile-navbar" class="focom-nav-transition fixed-top d-flex d-md-none bg-primary text-white align-items-center justify-content-between shadow-sm focom-minwidth px-3 py-3">
-    <i class="fas fa-arrow-left fa-lg text-white position-absolute"></i>
-    <input class="form-control position-absolute d-none focom-search-input-mobile" type="text" placeholder="Busca en Focomotor">
 
-      <div class="d-none">  
-        <a href="../index.html">
-          <img src="../img/focom-white.png" height="20px" class="mr-3">
-        </a>
-      </div>
-      <div>
-        <a href="" id="focom-search">
+          <a id="focom-nav-mobile-logo-search" href="../index.html">
+            <img src="../img/focom-white.png" height="20px" class="mr-3">
+          </a>
+
+      <!-- BEGIN SEARCH -->
+
+      <a id="focom-nav-arrowback" class="text-decoration-none focom-mouse-hover-pointer" style="display: none">
+        <i class="fas fa-arrow-left fa-lg text-white pr-3"></i>
+      </a>
+
+    
+    <form class="w-100 d-flex justify-content-end">
+      <input id="focom-nav-mobile-input-search" type="text" class="form-control focom-nav-mobile-input" style="display: none" name=""  placeholder="Busca en Focomotor">
+        
+        <a id="focom-nav-mobile-icon-search" class="focom-mouse-hover-pointer">
           <i class="fas fa-search fa-lg text-white"></i>
         </a>
-      </div>
+    </form>
+      <!-- END SEARCH -->
 
     </div>
     <div class="d-block d-md-none focom-mobile-nav-padding w-100"></div>
@@ -89,6 +115,9 @@
   <!-- END NAV MOBILE --->
 
   <!-- BEGIN SECTION --->
+
+
+  
 
   <!-- BEGIN MOBILE FILTERS SECTION -->
   <div id="focom-mobile-navbar-filters" class="d-flex d-md-none bg-white shadow-sm text-dark justify-content-between px-2 fixed-top focom-mobile-list-filter focom-nav-transition">
@@ -169,7 +198,12 @@
 
 
 
-
+<div class="wrapper">
+  <div class="icon-search-container" data-ic-class="search-trigger">
+    <span class="fa fa-search"></span>
+    <input type="text" class="search-input" data-ic-class="search-input" placeholder="Search"/>
+    <span class="fa fa-times-circle" data-ic-class="search-clear"></span>
+  </div>
 
 
 

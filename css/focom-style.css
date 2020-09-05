@@ -215,7 +215,10 @@
   overflow: hidden;
 }
 
-.focom-vehicle-min-images-section {
+.focom-nav-mobile-input {
+  height: 32px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 .focom-vehicle-min-images-section img {
@@ -280,6 +283,12 @@
 
 
 
+.focom-mouse-hover-pointer:hover {
+  cursor: pointer;
+}
+
+
+
 /*      SOLO DESKTOP      */
 @media (min-width: 768px) {
 
@@ -307,13 +316,42 @@
   }
 
   .focom-search-input-mobile {
-    
+    margin-top: 50px;
   }
+
+  .focom-nav-desktop a{
+    font-weight: 500;
+    font-size: 14px;
+    padding-right: 13px;
+  }
+
+.focom-nav-desktop-buttons {
+  width: 250px;
+}
+
+.focom-nav-desktop-search {
+  margin-bottom: 10px;
+}
+
+.focom-nav-desktop-input {
+  height: 38px;
+  max-width: 500px;
+
+}
+
+.focom-nav-desktop-input::placeholder {
+  color: #bfbfbf;
+}
+
+.focom-nav-desktop-searchbutton {
+  font-size: 18px;
+}
+
 
 }
 
 /*      SOLO MOBILE      */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .focom-vehicles-list {
     margin-top: 30px;
