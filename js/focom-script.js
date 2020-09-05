@@ -39,7 +39,9 @@
 		document.getElementById('focom-nav-mobile-icon-search').style.display = 'none';
 
 		document.getElementById('focom-nav-arrowback').style.display = 'block';
-		document.getElementById('focom-nav-mobile-input-search').style.display = 'block';	
+		document.getElementById('focom-nav-mobile-input-search').style.display = 'block';
+
+		inputSearch.focus();	
 	}
 
 	var arrowBack =	document.getElementById('focom-nav-arrowback');
@@ -93,7 +95,7 @@
 
 */
 
-
+/*
 
 var inputImage = document.getElementById('focom-input-image');
 var inputButtom = document.getElementById('focom-input-buttom');
@@ -135,5 +137,6 @@ function deleteImage () {
 	inputButtom.className = ' ';
 }
 
+*/
 
 
