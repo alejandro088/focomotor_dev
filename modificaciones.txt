@@ -15,7 +15,36 @@
 				• El header mobile no funciona los scripts
 			• Agregar linea en listado.html
 
+			• focom-section quitar fondo
+			• usuario.html problema la pantalla scrollea en eje x
+			• Borrar nav mobile al buscar
+			• filtros de listado.hrml en desktop se estira hasta el final
 
-			Agregar configuraciones.html
-			Header Desktop se rompe a los 768px hasta los 770px 
+
+			v1.14
+			• Quitar ciudad del header en dektop
+
+			Listado.html:
+				• Eliminar buscar en filtros
+				• Quitar palabra 'filtros' en desktop
+				
+			Vehiculo.html:
+				• Permitir ver imagenes al 100%
+				• Achicar miniaturas y que al seleccionarlas cambie la galeria principal
+				• Las miniaturas deben aparecer tambien en pantallas md
+				• Agregar boton con las imagenes que existen
+				• Ver imagenes al 100% solo en desktop
+				• Habilitar botones next y prev en mobile para la galeria
+				• Cambiar aspecto del layout en la galeria
+
+			• Agregar configuraciones.html	
+			• Añadir editar vehiculo en usuario.html
+			• Agregar redirecciones a politica y privacidad y terminos y condiciones en registro.html
+			• Añadir restablecer.html y añadir redireccion en ingresar.html
+
+
+			v1.15
+			Publicar.html
+				Permitir cargar y previsualizar imagenes en cada uno de los input type files
+
 

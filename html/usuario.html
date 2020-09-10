@@ -89,7 +89,7 @@
   <!-- END HEADER MOBILE --->
 
   <!-- BEGIN NAV MOBILE --->
-  <div class="focom-mobile-nav w-100 fixed-bottom bg-white d-md-none focom-minwidth border-top">
+  <div id="focom-nav-mobile" class="focom-mobile-nav w-100 fixed-bottom bg-white d-md-none focom-minwidth border-top">
     <div class="d-flex font-weight-bold text-dark text-center">
 
       <a href="../index.html" class="m-auto text-decoration-none">
@@ -132,14 +132,18 @@
       		<img class="focom-vehicle-profile-image" src="https://static.ellahoy.es/r/845X0/www.ellahoy.es/img/perfil-del-hombre-infiel.jpg">
       	</div>
       	<h1 class="h3 font-weight-normal">Mario Hernandez de Lorem ipsum.</h1>
-      	<div class="mt-3">      		
-	      	<button type="button" class="btn btn-primary px-3 px-sm-4 mx-0 mx-sm-3">Configuracion</button>
-	      	<button type="button" class="btn btn-primary px-4 px-sm-5 mx-0 mx-sm-3">Ayuda</button>
+      	<div class="mt-3">      	
+          <a href="configuraciones.html">
+  	      	<button type="button" class="btn btn-primary px-3 px-sm-4 mx-0 mx-sm-3">Configuracion</button>
+          </a>	
+          <a href="ayuda.html">
+	      	  <button class="btn btn-primary px-4 px-sm-5 mx-0 mx-sm-3">Ayuda</button>
+          </a>
       	</div>
       </div>
 
 
-	<hr class="col-12">
+	<hr class="w-100">
 
 
       <!-- BEGIN LIST --->
@@ -190,6 +194,7 @@
         
 
         <div class="col-6 col-sm-4 col-md-4 col-xl-3 focom-list focom-reset-padding p-1 p-sm-2 p-md-2">
+          <button type="button" class="btn btn-primary m-2 focom-user-vehicle-edit-button">Editar</button>
           <a href="" class="text-dark">
             <div class="border rounded shadow-sm bg-white rounded focom-list h-100">
               <img src="https://focomotor.com.ar/wp-content/uploads/elementor/thumbs/Car-21-otis76li15rp12tqtltcwnc8mkmgebx4o5899jhd0g.jpg">
@@ -199,6 +204,7 @@
                 <i class="fas fa-map-marker-alt fa-lg"></i>
                 <p class="pl-1 lead d-inline-block font-weight-normal">Sit sunt</p>
               </div>
+
             </div>
           </a>
         </div>

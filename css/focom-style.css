@@ -70,7 +70,6 @@
     }
 
     .focom-section {
-      background-color: #fafafafa;
       margin-bottom: 150px;
     }
 
@@ -196,25 +195,22 @@
 }
 
 .focom-vehicle-min-images {
-  width: 100%;
-  height: 88.75px;
-  overflow: hidden;
-  margin-bottom: 15px;
+  width: 80px;
+  height: 50px;
 }
 
-.focom-vehicle-min-image img {
+.focom-vehicle-min-images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.focom-vehicle-image-principal {
+.focom-vehicle-image-principal img {
   width: 100%;
-  height: 50vw;
-  max-height: 400px;
-  min-height: 160px;
-  overflow: hidden;
+  height: 40vw;
+  min-height: 300px;
+  max-height: 450px;
 }
 
 .focom-nav-mobile-input {
@@ -223,7 +219,7 @@
   margin-bottom: -10px;
 }
 
-.focom-vehicle-min-images-section img {
+.focom-vehicle-images-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -271,8 +267,14 @@
 }
 
 
-.focom-image-control-width {
-  width: 50% !important;
+.focom-full-gallery-close {
+  top: 20px;
+  right: 15px;
+  height: 50px !important;
+  position: absolute !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  z-index: 55;
 }
 
 .focom-nav-transition {
@@ -283,10 +285,59 @@
   z-index: 5;
 }
 
+.focom-header-desktop-ubication  {
+  color: #777;
+}
+
 
 
 .focom-mouse-hover-pointer:hover {
   cursor: pointer;
+}
+
+.focom-full-gallery {
+  width: 100vw;
+  height: 100vh;
+}
+.focom-full-gallery img {
+  max-height: 80vh;
+  max-width: 80vw;
+  display: flex;
+  object-fit: cover;
+  margin: auto;
+  min-width: 300px;
+}
+
+.focom-full-gallery-backgroud {
+  background-color: #0009;
+}
+
+.focom-gallery-indicator {
+ position: absolute;
+ top: -5px;
+ right: 10px;
+ z-index: 5;
+ font-size: 11px;
+ opacity: 0.75;
+}
+
+.focom-config-input-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+
+}
+
+.focom-user-vehicle-edit-button{
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  z-index: 5;
 }
 
 
@@ -360,9 +411,6 @@
   .focom-vehicle-info {
     position: block;
   }
-.focom-vehicle-image-principal {
-  max-height: 300px;
-}
 
   .focom-input-image {
   width: 200px;
@@ -381,6 +429,15 @@
   right: 5px;
 }
 
+.focom-vehicle-image-principal img {
+  min-height: 400px;
+}
+
+.focom-full-gallery img {
+  max-height: 80vh;
+  max-width: 100vw;
+}
+
 }
 
 /*      SOLO MENOR QUE 576px      */
@@ -392,13 +449,14 @@
   .focom-vehicle-info {
     position: block;
   }
-.focom-vehicle-image-principal {
-  max-height: 300px;
-}
 
   .focom-input-image {
   width: 125px;
   height: 85px;
+  }
+
+  .focom-vehicle-image-principal img {
+  min-height: 250px;
   }
 
 }
