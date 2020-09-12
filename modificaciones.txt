@@ -9,7 +9,7 @@
 			• Agregar padding superior en usuario.html
 			• Solucionar apariencia de los iconos de mobile y agregar "planes"
 			• Header en desktop corregir margenes entre el logo y la ubicacion
-			Vehiculo.html:
+			• Vehiculo.html:
 				• Agregar popup de ver numero
 				• Solucionar tamaño grande de tipografia en mobile
 				• El header mobile no funciona los scripts
@@ -24,7 +24,7 @@
 			v1.14
 			• Quitar ciudad del header en dektop
 
-			Listado.html:
+			• Listado.html:
 				• Eliminar buscar en filtros
 				• Quitar palabra 'filtros' en desktop
 				
@@ -44,7 +44,13 @@
 
 
 			v1.15
-			Publicar.html
-				Permitir cargar y previsualizar imagenes en cada uno de los input type files
+			• Publicar.html
+				• Permitir cargar y previsualizar imagenes en cada uno de los input type files
+	
+			• Optimizar los archivos scripts
 
-
+			• Mismo header en todas las paginas
+			• Realizar las llamadas a los scripts adecuadas
+			• Beatifulear todo el codigo
+			• Colocar titles adecuados
+			• Colocar azul lo que correspoende en cada seleccionarlas
